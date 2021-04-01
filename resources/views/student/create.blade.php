@@ -14,7 +14,7 @@
               </div>
               <div class="col-md-6 mb-4">
                 <label for="">Nama</label>
-                <input type="text" name="nama" class="form-control @error('nama') is-invalid @enderror" placeholder="Masukan Nama">
+                <input type="text" name="nama" class="form-control @error('nama') is-invalid @enderror" placeholder="Masukan Nama...">
                 @error('nama')
                     <span class="invalid-feedback">{{$message}}</span>
                 @enderror
